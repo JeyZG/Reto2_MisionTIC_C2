@@ -101,7 +101,6 @@ public class Peaje {
     }
 
     // METODOS PARA PRUEBA
-
     @Override
     public String toString() {
 
@@ -111,36 +110,4 @@ public class Peaje {
                 "Coche en atención: " + this.cocheEnAtencion + "\n" +
                 "Cantidad coches atendidos: " + this.cantidadCochesAtendidos + "\n";
     }
-
-    /*
-    public static void main(String[] args) {
-        String[] filaCoches = {"FNC901", "RBP250", "TPS706", "ITN503", "RSP845", "SBL560",
-                "IVD432", "LCS254", "ECT243", "RPL122", "FRS484", "TBL884",
-                "NFT948", "INS230"};
-
-        Peaje taquillaPeaje = new Peaje(filaCoches);
-
-        System.out.println(taquillaPeaje);
-
-        taquillaPeaje.proximoCoche();
-        taquillaPeaje.proximoCoche();
-        taquillaPeaje.proximoCoche();
-        taquillaPeaje.proximoCoche();
-
-        taquillaPeaje.agregarCocheFlyPass();
-        taquillaPeaje.proximoCoche();
-        taquillaPeaje.agregarCocheFlyPass();
-        taquillaPeaje.proximoCoche();
-        taquillaPeaje.agregarCocheFlyPass();
-
-        taquillaPeaje.cambiarEstadoPeaje();
-        taquillaPeaje.cambiarEstadoPeaje();
-        taquillaPeaje.proximoCoche();
-        taquillaPeaje.agregarCocheFlyPass();
-
-        System.out.println(taquillaPeaje);
-
-    }
-    */
-
 }

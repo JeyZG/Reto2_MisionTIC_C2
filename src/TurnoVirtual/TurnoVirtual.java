@@ -111,32 +111,4 @@ public class TurnoVirtual {
                 "Turno en Atención: " + this.turnoEnAtencion + "\n" +
                 "Cantidad de turnos atendidos: " + this.cantidadTurnosAtendidos + "\n";
     }
-    /*
-    public static void main(String[] args) {
-        String[] cola = {"A0", "A1", "A2", "A3", "A4", "A5",
-                "A6", "A7", "A8", "A9", "A10", "A11"};
-
-        TurnoVirtual turnoVirtual1 = new TurnoVirtual(cola);
-
-        System.out.println(turnoVirtual1);
-
-        turnoVirtual1.atenderProximoTurno();
-        turnoVirtual1.atenderProximoTurno();
-        turnoVirtual1.atenderProximoTurno();
-        turnoVirtual1.atenderProximoTurno();
-
-        turnoVirtual1.agregarTurnoPerdido();
-        turnoVirtual1.atenderProximoTurno();
-        turnoVirtual1.agregarTurnoPerdido();
-        turnoVirtual1.atenderProximoTurno();
-        turnoVirtual1.agregarTurnoPerdido();
-
-        turnoVirtual1.cambiarEstadoTurno();
-        turnoVirtual1.atenderProximoTurno();
-        turnoVirtual1.cambiarEstadoTurno();
-
-        System.out.println(turnoVirtual1);
-
-    }
-    */
 }
