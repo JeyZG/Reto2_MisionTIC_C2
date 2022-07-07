@@ -2,13 +2,13 @@ package ReproductorMusica;
 
 import java.util.Arrays;
 
-public class ReproductorMusica {
+public class  ReproductorMusica {
 
     //ATRIBUTOS DE CLASE
     private String[] canciones;
     private int[] cancionesFavoritas;
-    private boolean pausado;
-    private int cancionReproduciendo;
+    private boolean pausado=true;
+    private int cancionReproduciendo=0;
 
     //MÉTODO CONSTRUCTOR
     public ReproductorMusica(String[] canciones) {
@@ -20,11 +20,6 @@ public class ReproductorMusica {
         for (int i = 0; i < this.canciones.length; i++) {
             this.cancionesFavoritas[i] = -1;
         }
-
-        this.pausado = true;
-
-        this.cancionReproduciendo = 0;
-
     }
 
     //MÉTODOS ADICIONALES

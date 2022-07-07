@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class TurnoVirtual {
     //ATRIBUTOS
     private String[] turnos, turnosPerdidos;
-    private boolean estadoTurnoVirtual;
-    private int turnoEnAtencion, cantidadTurnosAtendidos;
+    private boolean estadoTurnoVirtual = true;
+    private int turnoEnAtencion = 0, cantidadTurnosAtendidos = 1;
 
     //MÉTODO CONSTRUCTOR
     public TurnoVirtual(String[] turnos) {
@@ -18,10 +18,6 @@ public class TurnoVirtual {
         for (int i = 0; i < this.turnos.length; i++) {
             this.turnosPerdidos[i] = " ";
         }
-
-        this.estadoTurnoVirtual = true;
-        this.turnoEnAtencion = 0;
-        this.cantidadTurnosAtendidos = 1;
     }
 
     // GETTERS Y SETTERS

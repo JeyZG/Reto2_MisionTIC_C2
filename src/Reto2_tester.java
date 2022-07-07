@@ -5,16 +5,20 @@ import TurnoVirtual.*;
 public class Reto2_tester {
     public static void main(String[] args) {
         
-        Peaje_tester();
+        //Peaje_tester();
         ReproductorMusica_tester();
-        TurnoVirtual_tester();
+        //TurnoVirtual_tester();
 
     }
 
     public static void Peaje_tester(){
-        String[] filaCoches = {"FNC901", "RBP250", "TPS706", "ITN503", "RSP845", "SBL560",
+        /*String[] filaCoches = {"FNC901", "RBP250", "TPS706", "ITN503", "RSP845", "SBL560",
                 "IVD432", "LCS254", "ECT243", "RPL122", "FRS484", "TBL884",
                 "NFT948", "INS230"};
+        */
+        String[] filaCoches = {"FNC901", "RBP250", "TPS706", "ITN503", "RSP845", "SBL560", "IVD432", "LCS254", "ECT243",
+                                "RPL122", "FRS484", "TLB884", "NFT948", "INS230", "ECB437", "APQ260", "BSC602", "CRL622",
+                                "SNT254", "SGH442", "GPI524"};
 
         Peaje taquillaPeaje = new Peaje(filaCoches);
 

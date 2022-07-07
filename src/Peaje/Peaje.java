@@ -7,8 +7,8 @@ public class Peaje {
 
     //ATRIBUTOS DE CLASE
     private String[] filaCoches, cochesFlyPass;
-    private boolean estadoPeaje;
-    private int cantidadCochesAtendidos, cocheEnAtencion;
+    private boolean estadoPeaje=true;
+    private int cocheEnAtencion=0, cantidadCochesAtendidos=1;
 
     //MÉTODO CONSTRUCTOR
     public Peaje(String[] filaCoches) {
@@ -19,10 +19,6 @@ public class Peaje {
         for (int i = 0; i < this.filaCoches.length; i++) {
             this.cochesFlyPass[i] = " ";
         }
-
-        this.estadoPeaje = true;
-        this.cocheEnAtencion = 0;
-        this.cantidadCochesAtendidos = 1;
     }
 
     // METODOS ADICIONALES
